@@ -84,6 +84,7 @@
             this.Name = "Form1";
             this.Text = "Chat Servidor";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
